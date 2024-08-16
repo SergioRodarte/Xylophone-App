@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4985C6872C6C929C0062B7DF /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C67F2C6C929C0062B7DF /* A.wav */; };
+		4985C6882C6C929C0062B7DF /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6802C6C929C0062B7DF /* B.wav */; };
+		4985C6892C6C929C0062B7DF /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6812C6C929C0062B7DF /* C.wav */; };
+		4985C68A2C6C929C0062B7DF /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6822C6C929C0062B7DF /* D.wav */; };
+		4985C68B2C6C929C0062B7DF /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6832C6C929C0062B7DF /* E.wav */; };
+		4985C68C2C6C929C0062B7DF /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6842C6C929C0062B7DF /* F.wav */; };
+		4985C68D2C6C929C0062B7DF /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4985C6852C6C929C0062B7DF /* G.wav */; };
 		499BF9A82C5F792C00DC0DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BF9A72C5F792C00DC0DFF /* AppDelegate.swift */; };
 		499BF9AA2C5F792C00DC0DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BF9A92C5F792C00DC0DFF /* SceneDelegate.swift */; };
 		499BF9AC2C5F792C00DC0DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BF9AB2C5F792C00DC0DFF /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4985C67F2C6C929C0062B7DF /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		4985C6802C6C929C0062B7DF /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		4985C6812C6C929C0062B7DF /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		4985C6822C6C929C0062B7DF /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		4985C6832C6C929C0062B7DF /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		4985C6842C6C929C0062B7DF /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		4985C6852C6C929C0062B7DF /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		499BF9A42C5F792C00DC0DFF /* Xylophone-iOS15+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xylophone-iOS15+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499BF9A72C5F792C00DC0DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		499BF9A92C5F792C00DC0DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4985C6862C6C929C0062B7DF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4985C67F2C6C929C0062B7DF /* A.wav */,
+				4985C6802C6C929C0062B7DF /* B.wav */,
+				4985C6812C6C929C0062B7DF /* C.wav */,
+				4985C6822C6C929C0062B7DF /* D.wav */,
+				4985C6832C6C929C0062B7DF /* E.wav */,
+				4985C6842C6C929C0062B7DF /* F.wav */,
+				4985C6852C6C929C0062B7DF /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = SOURCE_ROOT;
+		};
 		499BF99B2C5F792C00DC0DFF = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +91,7 @@
 				499BF9B02C5F792D00DC0DFF /* Assets.xcassets */,
 				499BF9B22C5F792D00DC0DFF /* LaunchScreen.storyboard */,
 				499BF9B52C5F792D00DC0DFF /* Info.plist */,
+				4985C6862C6C929C0062B7DF /* Sounds */,
 			);
 			path = "Xylophone-iOS15+";
 			sourceTree = "<group>";
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4985C6892C6C929C0062B7DF /* C.wav in Resources */,
 				499BF9B12C5F792D00DC0DFF /* Assets.xcassets in Resources */,
+				4985C68A2C6C929C0062B7DF /* D.wav in Resources */,
+				4985C68C2C6C929C0062B7DF /* F.wav in Resources */,
+				4985C6882C6C929C0062B7DF /* B.wav in Resources */,
 				499BF9B42C5F792D00DC0DFF /* Base in Resources */,
+				4985C68D2C6C929C0062B7DF /* G.wav in Resources */,
+				4985C6872C6C929C0062B7DF /* A.wav in Resources */,
+				4985C68B2C6C929C0062B7DF /* E.wav in Resources */,
 				499BF9AF2C5F792C00DC0DFF /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +334,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +344,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sergiorodarte.Xylophone-iOS15-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,8 +366,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +376,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sergiorodarte.Xylophone-iOS15-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
